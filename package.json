@@ -1,0 +1,33 @@
+{
+  "name": "esbuild-wasm-http-plugin",
+  "version": "0.2.0",
+  "description": "ESBuild WASM Plugin to support HTTP Imports",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "demo": "node ./demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanclevenger/esbuild-wasm-http-plugin.git"
+  },
+  "keywords": [
+    "esbuild",
+    "wasm",
+    "plugin",
+    "http"
+  ],
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanclevenger/esbuild-wasm-http-plugin/issues"
+  },
+  "homepage": "https://github.com/nathanclevenger/esbuild-wasm-http-plugin#readme",
+  "dependencies": {
+    "esbuild-wasm": "^0.15.9",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.9"
+  }
+}
